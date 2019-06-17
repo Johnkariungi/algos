@@ -70,6 +70,7 @@ if __name__=='__main__':
     # insert 8 after 7, 1->7->8->6->4->None
     llist.insertAfter(llist.head.next, 8)
 
-    print('Created linked list is:', end=" "), llist.printList()
+    # print('Created linked list is:', end=" "), llist.printList()
+    print('Created linked list is:' , end=" "), f"{llist.printList()}"
     
     
